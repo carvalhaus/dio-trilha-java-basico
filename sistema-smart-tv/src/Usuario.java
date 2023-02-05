@@ -20,6 +20,9 @@ public class Usuario {
         smartTv.diminuirVolume();
         System.out.println("Novo nível de volume: " + smartTv.volume);
 
+        smartTv.mudarCanal(47);
+        System.out.println("Você está no canal: " + smartTv.canal);
+
 
     }
 }
