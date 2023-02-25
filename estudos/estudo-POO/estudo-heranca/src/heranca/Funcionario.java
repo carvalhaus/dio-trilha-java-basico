@@ -1,0 +1,4 @@
+package heranca;
+class Funcionario {
+    
+}
