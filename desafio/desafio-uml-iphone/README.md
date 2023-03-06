@@ -1,7 +1,6 @@
-# DIO - Trilha Java Básico
-www.dio.me
+# Diagrama de Classes do Iphone
 
-#### Autores
+#### Autor
 - [João Pedro de Carvalho](https://github.com/carvalhaus)
 
 ## POO - Desafio
@@ -15,8 +14,22 @@ Com base no vídeo de lançamento do iPhone conforme link abaixo, elabore em uma
 - Minutos relevantes do 00:15 até 00:55
 
 ###### Comportamentos esperados:
-* Repodutor Musicial: tocar, pausar, selecionarMusica
+* Reprodutor Musicial: tocar, pausar, selecionarMusica
 * Aparelho Telefônico: ligar, atender, iniciarCorrerioVoz
 * Navegador na Internet: exibirPagina, adicionarNovaAba, atualizarPagina
 
 
+## Realização projeto
+
+O foco desse projeto foi a utilização do paradigma de Programação Orientada a Objetos, com a utilização de classes e objetos.
+
+Foram criadas as classes:
+* Iphone;
+* AplicacaoEscolhia;
+* ReprodutorMusical;
+* AparelhoTelefonico;
+* NavegadorInternet;
+
+Na classe *Iphone* é executado o algoritmo que interaje com o usuário, solicitando para que o mesmo escolha qual aplicação deseja utilizar, e a partir desse escolha, através de uma estrutura condicional (*Switch-Case*) são executados os métodos de cada aplicação.
+
+Neste projeto tive a oportunidade de utilizar todos os pilares da POO que são o **Encapsulamento**, a **Herança**, a **Abstração** e o **Polimorfismo**.
