@@ -29,7 +29,6 @@ public class ExercicioProposto1 {
         Collections.reverse(corArcoIrisList);
         System.out.println(corArcoIrisList);
 
-
         System.out.println("\nExiba todas as cores que começam com a letra 'v'");
         Iterator<String> iterator = corArcoIris.iterator();
         while(iterator.hasNext()) {
@@ -37,7 +36,6 @@ public class ExercicioProposto1 {
             if(letraV.contains("V"))
                 System.out.println(letraV);
         }
-
 
         System.out.println("\nRemova todas as cores que não começam com a letra 'v'");
         Iterator<String> iterator1 = corArcoIris.iterator();
@@ -52,5 +50,5 @@ public class ExercicioProposto1 {
         corArcoIris.clear();
 
         System.out.println("\nConfira se o conjunto está vazio: \n" + corArcoIris.isEmpty());
-}
+    }
 }
