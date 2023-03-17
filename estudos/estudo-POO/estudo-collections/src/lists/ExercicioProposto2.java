@@ -1,6 +1,7 @@
 package lists;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
 import java.util.Scanner;
 
@@ -29,26 +30,31 @@ public class ExercicioProposto2 {
 
         System.out.println(investigacaoCrime);
         
-        // int count = 0;
+        int count = 0;
         
-        // for (String answer : investigacaoCrime) {
-        //     if(answer = "Sim") {
-        //         count ++;
-        //     } else{
-        //         System.out.println(answer);
-        //     } 
-        // }
+        Iterator<String> contador = investigacaoCrime.iterator();
+        while(contador.hasNext()) {
+            String resp = contador.next();
+            if(resp.contains("S"))
+                count++;
+            
+        }
 
-
-        // if (count == 2) {
-        //     System.out.println("Suspeita!");
-        // } else if (count == 3 || count == 4) {
-        //     System.out.println("Cúmplice!");
-        // } else if (count ==5) {
-        //     System.out.println("Assassina!");
-        // } else {
-        //     System.out.println("Inocente!");
-        // }
+        switch (count) {
+            case 2:
+                System.out.println("Suspeita!");
+                break;
+            case 3:
+            case 4:
+                System.out.println("Cúmplice!");
+                break;
+            case 5:
+                System.out.println("Assassina!");
+                break;
+            default:
+                System.out.println("Inocente!");
+                break;
+        }
     }
 }    
 
