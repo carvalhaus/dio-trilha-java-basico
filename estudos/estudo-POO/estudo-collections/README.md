@@ -1,18 +1,23 @@
-## Getting Started
+# Estudo sobre collections
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+## **Lists**
 
-## Folder Structure
+### Exercícios propostos
 
-The workspace contains two folders by default, where:
+### **01**
+Faça um programa que receba a temperatura média dos 6 primeiros meses do ano e armazene-as em uma lista. Após isto, calcule a média semestral das temperaturas e mostre todas as temperaturas acima desta média, e em que mês elas ocorreram (mostrar o mês por extenso: 1 – Janeiro, 2 – Fevereiro e etc).
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+### **02**
+Utilizando listas, faça um programa que faça 5 perguntas para uma pessoa sobre um crime. As perguntas são:
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+1. "Telefonou para a vítima?"
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+2. "Esteve no local do crime?"
 
-## Dependency Management
+3. "Mora perto da vítima?"
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+4. "Devia para a vítima?"
+
+5. "Já trabalhou com a vítima?"
+
+Se a pessoa responder positivamente a 2 questões ela deve ser classificada como "Suspeita", entre 3 e 4 como "Cúmplice" e 5 como "Assassina". Caso contrário, ela será classificado como "Inocente".
