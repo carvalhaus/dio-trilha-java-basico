@@ -1,7 +1,6 @@
 import java.time.LocalDate;
 
 import br.com.dio.desafio.dominio.Bootcamp;
-import br.com.dio.desafio.dominio.Conteudo;
 import br.com.dio.desafio.dominio.Curso;
 import br.com.dio.desafio.dominio.Dev;
 import br.com.dio.desafio.dominio.Mentoria;
@@ -41,6 +40,7 @@ public class Main {
         devJoaoPedro.inscreverBootcamp(bootcamp);
         System.out.println("Conteúdos inscritos de João Pedro " + devJoaoPedro.getConteudosInscritos());
         devJoaoPedro.progredir();
+        System.out.println("Conteúdos inscritos de João Pedro " + devJoaoPedro.getConteudosInscritos());
         System.out.println("Conteúdos concluídos de João Pedro " + devJoaoPedro.getConteudosConcluidos());
         System.out.println("XP: " + devJoaoPedro.calcularTotalXP());
 
@@ -49,6 +49,9 @@ public class Main {
         devOscar.inscreverBootcamp(bootcamp);
         System.out.println("\nConteúdos inscritos de Oscar " + devOscar.getConteudosInscritos());
         devOscar.progredir();
+        devOscar.progredir();
+        devOscar.progredir();
+        System.out.println("Conteúdos inscritos de Oscar " + devOscar.getConteudosInscritos());
         System.out.println("Conteúdos concluídos de Oscar " + devOscar.getConteudosConcluidos());
         System.out.println("XP: " + devOscar.calcularTotalXP());
 

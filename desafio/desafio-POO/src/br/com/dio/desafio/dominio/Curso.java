@@ -6,8 +6,7 @@ public class Curso extends Conteudo {
 
     @Override
     public double calcularXP() {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'calcularXP'");
+        return XP_PADRAO * cargaHoraria;
     }
 
     public Curso() {
